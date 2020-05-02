@@ -1,0 +1,2 @@
+content copy-message-ref chrome/content/
+overlay chrome://messenger/content/messenger.xul chrome://copy-message-ref/content/messengerWindow.xul
