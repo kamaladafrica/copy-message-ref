@@ -1,6 +1,6 @@
 # Copy Message Ref
 
-This is a simple Thunderbird extension that adds a button to the message header toolbar to
+This is a simple Mozilla Thunderbird extension that adds a button to the message header toolbar to
 copy the message refs to the clipboard. This is useful for pasting email reference.
 
 Example:
