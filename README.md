@@ -7,6 +7,24 @@ Example:
 
 Mario Rossi <mario.rossi@email.it>, 30/4/2020, 18:25:05, Fwd: Meeting
 
+## Build
+
+### Windows
+
+Using open source 7zip https://www.7-zip.org/
+
+```sh
+$ 7z a .\copy-message-ref@kamaladafrica.xpi .\src\*
+```
+
+### *nix
+
+Using zip
+
+```sh
+$ zip ./copy-message-ref@kamaladafrica.xpi ./src/*
+```
+
 ## Installation
 
-Create a .xpi by running `make` and install it.
+Install .xpi into Thunderbird as usual.

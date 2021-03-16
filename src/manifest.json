@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"applications": {
+	  "gecko": {
+		"id": "copy-message-ref@kamaladafrica",
+		"strict_min_version": "78.0"
+	  }
+	},
+	"name": "Copy Message Ref",
+	"description": "Adds a button to the message view toolbar to copy the message ref to the clipboard",
+	"author": "kamaladafrica",
+	"version": "2.0.0",
+	"permissions": [
+	  "messagesRead",
+	  "clipboardWrite"
+	],
+	"background": {
+	  "scripts": [
+		"background.js"
+	  ]
+	},
+	"message_display_action": {
+	  "default_title": "Copy Ref"
+	}
+  }
