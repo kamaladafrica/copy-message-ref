@@ -14,16 +14,13 @@ Mario Rossi <mario.rossi@email.it>, 30/4/2020, 18:25:05, Fwd: Meeting
 Using open source 7zip https://www.7-zip.org/
 
 ```sh
-$ 7z a .\copy-message-ref@kamaladafrica.xpi .\src\*
+$ 7z a .\dist\copy-message-ref@kamaladafrica.xpi .\src\*
 ```
+You need to create a `dist` folder at first.
 
 ### *nix
 
-Using zip
-
-```sh
-$ zip ./copy-message-ref@kamaladafrica.xpi ./src/*
-```
+Run `build.sh` command. You will find `copy-message-ref@kamaladafrica.xpi` into `dist` folder.
 
 ## Installation
 
