@@ -1,25 +1,30 @@
 {
-	"manifest_version": 2,
-	"applications": {
-	  "gecko": {
-		"id": "copy-message-ref@kamaladafrica",
-		"strict_min_version": "78.0"
-	  }
-	},
-	"name": "Copy Message Ref",
-	"description": "Adds a button to the message view toolbar to copy the message ref to the clipboard",
-	"author": "kamaladafrica",
-	"version": "2.0.0",
-	"permissions": [
-	  "messagesRead",
-	  "clipboardWrite"
-	],
-	"background": {
-	  "scripts": [
-		"background.js"
-	  ]
-	},
-	"message_display_action": {
-	  "default_title": "Copy Ref"
-	}
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "copy-message-ref@kamaladafrica",
+      "strict_min_version": "78.0"
+    }
+  },
+  "name": "Copy Message Ref",
+  "description": "Adds a button to the message view toolbar to copy the message ref to the clipboard",
+  "author": "kamaladafrica",
+  "version": "2.0.0",
+  "permissions": ["messagesRead", "clipboardWrite"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "64": "assets/copy-icon-64.png",
+    "32": "assets/copy-icon-32.png"
+  },
+  "message_display_action": {
+    "default_title": "Copy Ref",
+    "default_icon": {
+      "16": "assets/copy-icon-16.png",
+      "24": "assets/copy-icon-24.png",
+      "32": "assets/copy-icon-32.png",
+      "48": "assets/copy-icon-48.png"
+    }
   }
+}
